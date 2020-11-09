@@ -1,0 +1,5 @@
+package com.neoflies.zbooks.domains.authors;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AuthorRepository extends JpaRepository<Author, Integer> {}
